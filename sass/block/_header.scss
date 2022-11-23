@@ -1,0 +1,38 @@
+header{
+    background-color:#014E56;
+    padding: 70px 0;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__list{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    flex-grow: 1; 
+    
+}
+.nav__burger{
+    display: none;
+    background-color: transparent;
+    border: none;
+}
+.nav__item{
+    margin-left: 40px;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+.nav__item:nth-child(2){
+    display: flex;
+    flex-grow: 1;
+}
+.nav__item:last-child{
+    border: 1px solid #fff;
+    border-radius: 24px;
+    padding: 9px 32px;
+
+}
